@@ -1,0 +1,405 @@
+/* Base  des 12 balise*/
+
+html,
+body {
+	background-color: ivory;
+	font-family: Arial;
+	min-height: 100vh;
+}
+
+
+
+h3 {
+
+	text-align: left;
+	font-size: x-large;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+/* H3 EXEMPLE des 12 balises */
+.exemple {
+
+	text-decoration: underline;
+	text-align: left;
+	font-size: x-large;
+	text-decoration-color: white;
+}
+
+/* PHOTO!  */
+
+/* P + HTML*/
+.codage {
+
+	display: block;
+	width: 1202px;
+	height: 398px;
+
+}
+
+/* TITLE */
+.title {
+	position: relative;
+	display: block;
+	width: 1019px;
+	height: 324px;
+
+}
+
+.title2 {
+	position: relative;
+	display: block;
+	width: 1034px;
+	height: 181px;
+
+}
+
+/* HEAD + HEADER */
+.head {
+	position: relative;
+	display: block;
+	width: 635px;
+	height: 159px;
+}
+/* HEAD */
+.head2 {
+	position: relative;
+	display: block;
+	width: 635px;
+	height: 204px;}
+
+/* UL */
+.ul{position: relative;
+	display: block;
+	width: 531px;
+	height: 151px;}
+
+/*FOOTER  */
+.footer{
+	position:relative;
+	display: block;
+	width: 809px;
+    height: 140px;
+}
+/* TEXTAREA */
+.textarea3{
+	position:relative;
+	display: block;
+	width: 760px;
+    height: 132px;
+	
+}
+
+.table{
+    position: relative;
+    display: block;
+    width: 441px;
+    height: 520px;
+
+}
+/* STRONG */
+.strong5{
+	position: relative;
+    display: block;
+    width: 1400px;
+    height: 90px;
+}
+
+	
+/* texte des exemples */
+
+/* P */
+.gras {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 300px;
+}
+
+.photo {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 621px
+}
+
+/* TITLE */
+.balise {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 648px;
+
+}
+
+.balise2 {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 322px;
+
+
+
+}
+
+/* HTML */
+.html {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 518px;
+
+}
+
+.html2 {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 849px;
+
+}
+
+/* HEAD */
+.head3 {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 329px;
+}
+
+.head4 {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 659px;
+}
+
+/* DIV + TEXTAREA*/
+
+.trait {
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 57px;
+
+}
+.border{
+	border-style: double;
+	border-width: 1px;
+	border-color: black;
+}
+
+/* TEXTAREA */
+.textarea{
+	font-weight: bold;
+	font-size: large;
+	background-color: white;
+	background-size: 50%;
+	width: 104px;
+
+}
+
+.textarea2{
+	font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 115px;
+}
+/* STRONG */
+.strong1{
+	font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 324px;
+}
+.strong2{
+	font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 73px;
+}
+
+.strong3{
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 1176px;
+
+}
+
+.strong4{
+	font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 554px;
+}
+
+/* IMG */
+.img{
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 828px;
+}
+
+.img2{
+	font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 373px;
+}
+/* UL */
+.ul2{
+	font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 490px;
+
+}
+
+.ul3{
+	font-weight: bold;
+    font-size: large;
+    background-color: white;
+    background-size: 50%;
+    width: 442px;
+}
+
+
+/* titre */
+
+.titre{
+
+	font-style: italic;
+	text-align: justify;
+	font-size: xx-large;
+
+
+}
+h4 {
+    font-family: arial;
+    font-size: 15px;
+}
+.container {
+    display: flex;
+}
+
+
+.sidenav {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    background-color: ivory;
+    margin-top: 100px;
+    padding-bottom: 16px;
+    width: 15%;
+    align-items: baseline;
+    height: 100%;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 15px;
+    color: #0e0404;
+    display: block;
+    margin-left: 2px;
+    background:  #f6911d;
+    border: 1px solid rgb(223, 116, 15);
+    border-radius: 5px;
+    color: black;
+    overflow: hidden;
+    box-shadow: black 1px 0 10px;
+    transition: all 0.5s;
+}
+.sidebar a:hover {
+    color: #8d1010;
+}
+/* HEADER */
+h1 {
+    display: None;
+    position: left;
+}
+.header {
+     width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+/* CONTENT */
+.content  {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-left:10px;
+    align-content: space-between;
+	box-align: right;
+	max-width: 1000px;
+}          
+/* FOOTER */
+footer {
+	background-color: #f6911d;
+	margin: 0;
+	margin-top: 50px;
+	padding: 25px;
+	border-radius: 20px;
+}
+
+.bottom_link {
+	margin: 0;
+	text-align: center;
+	font-size: 45px;
+}
+
+.made_with_love {
+	position: relative;
+	text-align: center;
+	margin: 0px;
+	bottom: 35px;
+	background-color: orange;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.coeur {
+	color: red;
+	
+}
+
+.acs_logo {
+	position: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.exemple_geoffroy {
+	width: 50%;
+	height: 50%;
+}
+.h1 {
+	display: initial;
+}
+

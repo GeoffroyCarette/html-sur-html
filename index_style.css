@@ -1,0 +1,226 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: ivory;
+}
+
+.header_index_html {
+	margin:0;
+	padding:0;
+}
+
+.banniere_index_html {
+	width: 70%;
+	height: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+
+.hiden_h1 {
+	display: none;
+
+}
+/* Début flex-box container */
+.container_block {
+	display: flex;
+	height: 450px;
+	margin-right: 250px;
+	margin-left: 250px;
+	justify-content: space-evenly;
+}
+/* Fin flex-box container */
+/* Début flex-box enfant */
+.item_block {
+	width: 450px;
+	border-radius: 15px;
+	border: solid;
+	border-width: 10px;
+	border-color: #f6911d;
+	box-shadow: black 1px 0 10px;
+}
+
+.title_block {
+	text-align: center;
+	border: solid;
+	color: #f6911d;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: black 1px 0 10px;
+	border-radius: 15px;
+}
+
+.item_inline {
+	width: 225px;
+	border-radius: 15px;
+	border: solid;
+	border-width: 10px;
+	border-color: #f6911d;
+	box-shadow: black 1px 0 10px;
+}
+
+.title_inline {
+	text-align: center;
+	border: solid;
+	color: #f6911d;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: black 1px 0 10px;
+	border-radius: 15px;
+
+}
+
+.item_indefinite {
+	width: 225px;
+	border-radius: 15px;
+	border: solid;
+	border-width: 10px;
+	border-color: #f6911d;
+	box-shadow: black 1px 0 10px;
+}
+
+.title_indefinite {
+	text-align: center;
+	border: solid;
+	color: #f6911d;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: black 1px 0 10px;
+	border-radius: 15px;
+
+}
+/* Fin de flex-box enfant */
+footer {
+	background-color: #f6911d;
+	margin: 0;
+	margin-top: 50px;
+	padding: 25px;
+
+	border-radius: 20px;
+}
+
+.bottom_link {
+	margin: 0;
+	text-align: center;
+	font-size: 45px;
+}
+
+.made_with_love {
+	position: relative;
+	text-align: center;
+	margin: 0px;
+	bottom: 35px;
+	background-color: orange;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.coeur {
+	color: red;
+	
+}
+
+.acs_logo {
+	position: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.title_h2 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 45px;
+	color: black;
+	text-decoration: underline overline;
+	
+}
+
+.desc_html {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid;
+	border-width: 10px;
+	border-color: #f6911d;
+	box-shadow: black 1px 0 10px;
+	width: 63%;
+	border-radius: 15px;
+	font-size: 20px;
+	color: black;
+}
+
+.name_link {
+	text-decoration: none;
+	color: black;
+}
+
+.name_link:hover {
+	color: white;
+}
+
+
+/* Début CSS pour les boutons */
+
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+.button
+{
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  text-align: center;
+
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+  font-weight: 300;
+  
+  width: 220px;
+  height:30px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  
+
+  background: orange;
+  border: 1px solid orange;
+  border-radius: 10px;
+  color: #FFF;
+  overflow: hidden;
+  box-shadow: black 1px 0 10px;
+  
+  transition: all 0.5s;
+}
+
+.button:hover, .button:active 
+{
+  text-decoration: none;
+  color: #f6911d;
+  border-color: #f6911d;
+  background: #FFF;
+}
+
+.button_inline {
+	text-align: center;
+	margin-top: 50%;
+	margin-bottom: 50%;
+}
+
+.button.button_margin {
+	margin-top: 50px;
+
+}
+/* Fin CSS pour les boutons */

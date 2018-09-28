@@ -23,8 +23,8 @@
 				</div>	
 		</div>
 </header>
-<div class="container">
 <?php include("menu.php"); ?>
+<div class="container">
 		<div class="content">
 		<h2 class="titre">La balise &lt;div&gt;</h2>
 		<h3>La balise &lt;div&gt;, qu'est-ce que c'est ?</h3>

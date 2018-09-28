@@ -21,8 +21,8 @@
 			</div>
 					</div>
 			</header>
-			<div class="container">
 			<?php include("menu.php"); ?>
+			<div class="container">
 					<div class="content">
 						<h2 class="titre">La balise &lt;footer&gt;</h2>
 						<h3>Le &lt;footer&gt; c'est quoi ?</h3>	

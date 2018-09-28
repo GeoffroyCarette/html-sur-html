@@ -329,23 +329,24 @@ main {
 }
 h4 {
     font-family: arial;
-    font-size: 15px;
+	font-size: 15px;
+	margin: 5px;
 }
 .container {
-    display: flex;
+	display: flex;
+	margin-left: 200px;
 }
 
 
 .sidenav {
-    display: flex;
+	display: flex;
+	position: fixed;
     flex-flow: column wrap;
     justify-content: flex-start;
-    background-color: white;
-    margin-top: 100px;
     padding-bottom: 16px;
     width: 15%;
-    align-items: baseline;
-    height: 100%;
+	align-items: baseline;
+	z-index: 1;
 }
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -390,7 +391,6 @@ h1 {
 footer {
 	background-color: #636e72;
 	margin: 0;
-	margin-top: 50px;
 	padding: 25px;
 
 }

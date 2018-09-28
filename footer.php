@@ -33,7 +33,7 @@
 						<h3 class="exemple">Exemple :</h3>
 						<img src="media/footercode.png" width="780" height="95" alt="Prise de vue de la partie code ci-dessous">
 						<h3 class="exemple">Mise en pratique :</h3>
-						<footer>
+						<footer class="exemple_footer">
 							<p>2018 © Tous droits réservés - ONLINEFORMAPRO</p>
 							<a href="coucou.html" target="_blank">Mentions légales</a>
 							

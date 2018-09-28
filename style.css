@@ -113,7 +113,7 @@ main {
 	position:relative;
 	display: block;
 	width: 809px;
-    height: 140px;
+	height: 140px;
 }
 /* TEXTAREA */
 .textarea3{
@@ -230,6 +230,7 @@ main {
 	border-style: double;
 	border-width: 1px;
 	border-color: black;
+	margin-bottom: 50px;
 }
 
 /* TEXTAREA */
@@ -432,4 +433,12 @@ footer {
 
 .img_banniere {
 	width: 100%;
+}
+
+.exemple_footer {
+	margin-bottom: 50px;
+}
+
+table {
+	margin-bottom: 50px;
 }

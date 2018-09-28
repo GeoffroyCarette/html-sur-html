@@ -15,7 +15,12 @@
 	<header>
 		<div class="header">
 				<h1>Définitions de 12 balises HTML</h1>
-				<a href="index.html"> <img src="media/banniere.png" width="500px" height="100px" alt="Banniere orange indiquant définitions de 12 balises HTML"></a>
+				<a href="index.html"></a>
+				<div class="background">
+				<div class="banniere">
+					<div class="text_banner"></div>
+				</div>
+				</div>	
 		</div>
 </header>
 <div class="container">

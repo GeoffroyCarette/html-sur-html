@@ -364,7 +364,7 @@ footer {
 	margin: 0;
 	margin-top: 50px;
 	padding: 25px;
-	border-radius: 20px;
+
 }
 
 .bottom_link {
@@ -379,7 +379,6 @@ footer {
 	margin: 0px;
 	bottom: 35px;
 	background-color: #b2bec3;
-	border-radius: 10px;
 	font-size: 20px;
 }
 

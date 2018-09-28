@@ -2,7 +2,7 @@
 
 html,
 body {
-	background-color: ivory;
+	background-color:blanc;
 	font-family: Arial;
 	min-height: 100vh;
 }
@@ -29,7 +29,7 @@ main {
 	text-decoration: underline;
 	text-align: left;
 	font-size: x-large;
-	text-decoration-color: white;
+	text-decoration-color: #b2bec3;
 }
 
 /* PHOTO!  */
@@ -118,7 +118,7 @@ main {
 .gras {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color: #b2bec3;
 	background-size: 50%;
 	width: 300px;
 }
@@ -126,7 +126,7 @@ main {
 .photo {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color: #b2bec3;
 	background-size: 50%;
 	width: 621px
 }
@@ -135,7 +135,7 @@ main {
 .balise {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color:#b2bec3 ;
 	background-size: 50%;
 	width: 648px;
 
@@ -144,7 +144,7 @@ main {
 .balise2 {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color: #b2bec3;
 	background-size: 50%;
 	width: 322px;
 
@@ -156,7 +156,7 @@ main {
 .html {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color:#b2bec3 ;
 	background-size: 50%;
 	width: 518px;
 
@@ -165,7 +165,7 @@ main {
 .html2 {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color:#b2bec3 ;
 	background-size: 50%;
 	width: 849px;
 
@@ -175,7 +175,7 @@ main {
 .head3 {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color: #b2bec3;
 	background-size: 50%;
 	width: 329px;
 }
@@ -183,7 +183,7 @@ main {
 .head4 {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color:#b2bec3 ;
 	background-size: 50%;
 	width: 659px;
 }
@@ -193,7 +193,7 @@ main {
 .trait {
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color: #b2bec3;
 	background-size: 50%;
 	width: 57px;
 
@@ -208,7 +208,7 @@ main {
 .textarea{
 	font-weight: bold;
 	font-size: large;
-	background-color: white;
+	background-color: #b2bec3;
 	background-size: 50%;
 	width: 104px;
 
@@ -217,7 +217,7 @@ main {
 .textarea2{
 	font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 115px;
 }
@@ -225,14 +225,14 @@ main {
 .strong1{
 	font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 324px;
 }
 .strong2{
 	font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 73px;
 }
@@ -240,7 +240,7 @@ main {
 .strong3{
     font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 1176px;
 
@@ -249,7 +249,7 @@ main {
 .strong4{
 	font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 554px;
 }
@@ -258,7 +258,7 @@ main {
 .img{
     font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 828px;
 }
@@ -266,7 +266,7 @@ main {
 .img2{
 	font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 373px;
 }
@@ -274,7 +274,7 @@ main {
 .ul2{
 	font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 490px;
 
@@ -283,7 +283,7 @@ main {
 .ul3{
 	font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #b2bec3;
     background-size: 50%;
     width: 442px;
 }
@@ -312,7 +312,7 @@ h4 {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    background-color: ivory;
+    background-color: white;
     margin-top: 100px;
     padding-bottom: 16px;
     width: 15%;
@@ -325,8 +325,8 @@ h4 {
     color: #0e0404;
     display: block;
     margin-left: 2px;
-    background:  #f6911d;
-    border: 1px solid rgb(223, 116, 15);
+    background:  #636e72;
+    border: 1px solid #2d3436;
     border-radius: 5px;
     color: black;
     overflow: hidden;
@@ -360,7 +360,7 @@ h1 {
 }          
 /* FOOTER */
 footer {
-	background-color: #f6911d;
+	background-color: #636e72;
 	margin: 0;
 	margin-top: 50px;
 	padding: 25px;
@@ -378,7 +378,7 @@ footer {
 	text-align: center;
 	margin: 0px;
 	bottom: 35px;
-	background-color: orange;
+	background-color: #b2bec3;
 	border-radius: 10px;
 	font-size: 20px;
 }

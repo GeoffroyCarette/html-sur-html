@@ -16,7 +16,7 @@ body {
 
 /* banniere_background */
 .background{
-	background-image: url(media/background_1.png);
+	background-image: url(media/background.png);
 	border-radius: 0px 0px 30px 30px;
 	display: flex;
 	background-repeat: no-repeat;
@@ -25,15 +25,15 @@ body {
 }
 /* banniere */
 .banniere{
-	background-image: url(media/banner_1.png);
+	background-image: url(media/banner.png);
 	display: flex;
 	background-repeat: no-repeat;
 	height: 200px;
 	width: 1580px;
 	border-radius: 0px 0px 30px 30px;
 }
-.text_banner1{
-	background-image: url(media/text_banner3.png);
+.text_banner{
+	background-image: url(media/text_banner.png);
 	background-color: rgb(0, 0, 0,.8);
 	display: flex;
 	background-repeat: no-repeat;

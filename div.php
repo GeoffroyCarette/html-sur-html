@@ -19,26 +19,7 @@
 		</div>
 </header>
 <div class="container">
-		<div class="sidenav">
-			<nav>
-				<h4>Balise de type bloc :</h4>
-				<a href="div.html">&lt;div&gt;</a>
-				<a href="footer.html">&lt;footer&gt;</a>
-				<a href="header.html">&lt;header&gt;</a>
-				<a href="h1ah6.html">&lt;h1&gt; à &lt;h6&gt;</a>
-				<a href="p.html">&lt;p&gt;</a>
-				<a href="table.html">&lt;table&gt;</a>
-				<a href="ul.html">&lt;ul&gt;</a>
-			<h4>Balise de type inline :</h4>	
-				<a href="img.html">&lt;img&gt;</a>
-				<a href="strong.html">&lt;strong&gt;</a>
-				<a href="textarea.html">&lt;textarea&gt;</a>
-			<h4>Balises de type indéfini :</h4>
-				<a href="head.html">&lt;head&gt;</a>
-				<a href="title.html">&lt;title&gt;</a>
-				<a href="html.html">&lt;html&gt;</a>
-			</nav>
-		</div>
+<?php include("menu.php"); ?>
 		<div class="content">
 		<h2 class="titre">La balise &lt;div&gt;</h2>
 		<h3>La balise &lt;div&gt;, qu'est-ce que c'est ?</h3>
@@ -115,10 +96,6 @@
 		<br><p class="border"></p>
 </div>
 </div>
-		<footer>
-			<p class="made_with_love">Made with <span class="coeur">❤</span> by Jeanne, Gaëtan, Valérie & Geoffroy</p>
-			<p class="bottom_link">
-			Powered by <a href="http://www.accesscodeschool.fr/" target="_blank"><img class="acs_logo" src="media/acs.jpg" width="400" height="400" alt="Access code school logo"></a>
-		</footer>
+		<?php include("footer.inc.php"); ?>
 </body>
 </html>

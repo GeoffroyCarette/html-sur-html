@@ -17,26 +17,7 @@
 					</div>
 			</header>
 			<div class="container">
-					<div class="sidenav">
-						<nav>
-							<h4>Balise de type bloc :</h4>
-							<a href="div.html">&lt;div&gt;</a>
-							<a href="footer.html">&lt;footer&gt;</a>
-							<a href="header.html">&lt;header&gt;</a>
-							<a href="h1ah6.html">&lt;h1&gt; à &lt;h6&gt;</a>
-							<a href="p.html">&lt;p&gt;</a>
-							<a href="table.html">&lt;table&gt;</a>
-							<a href="ul.html">&lt;ul&gt;</a>
-						<h4>Balise de type inline :</h4>	
-							<a href="img.html">&lt;img&gt;</a>
-							<a href="strong.html">&lt;strong&gt;</a>
-							<a href="textarea.html">&lt;textarea&gt;</a>
-						<h4>Balises de type indéfini :</h4>
-							<a href="head.html">&lt;head&gt;</a>
-							<a href="title.html">&lt;title&gt;</a>
-							<a href="html.html">&lt;html&gt;</a>
-						</nav>
-					</div>
+			<?php include("menu.php"); ?>
 					<div class="content">
 						<h2 class="titre">La balise &lt;footer&gt;</h2>
 						<h3>Le &lt;footer&gt; c'est quoi ?</h3>	
@@ -46,9 +27,9 @@
 							<br>• Des données sur le droit d'auteur (copyright)
 							<br>• Des liens vers d'autres documents en relation avec la page (un lien vers un formulaire de contact par exemple)
 						</p>
-						<h3>Exemple :</h3>
+						<h3 class="exemple">Exemple :</h3>
 						<img src="media/footercode.png" width="780" height="95" alt="Prise de vue de la partie code ci-dessous">
-						<h3>Mise en pratique :</h3>
+						<h3 class="exemple">Mise en pratique :</h3>
 						<footer>
 							<p>2018 © Tous droits réservés - ONLINEFORMAPRO</p>
 							<a href="coucou.html" target="_blank">Mentions légales</a>
@@ -57,10 +38,6 @@
 						</footer>
 		</div>
 </div>
-		<footer>
-			<p class="made_with_love">Made with <span class="coeur">❤</span> by Jeanne, Gaëtan, Valérie & Geoffroy</p>
-			<p class="bottom_link">
-			Powered by <a href="http://www.accesscodeschool.fr/" target="_blank"><img class="acs_logo" src="media/acs.jpg" width="400" height="400" alt="Access code school logo"></a>
-		</footer>
+<?php include("footer.inc.php"); ?>
 </body>
 </html>

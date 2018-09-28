@@ -64,7 +64,7 @@
 	<img class="head2" src="media/contenu-head.gif" alt="Photo correspondant au codage" width="300" height="175" />
 	<p class="head4">Photo représentant le codage précédent vu sur internet de la balise &lt;head&gt;</p>
 
-	<br><a href="index.html" onclick="javascript:history.back();">Page d'accueil</a></section>
+	
 </div>
 </div>
 <?php include("footer.inc.php"); ?>

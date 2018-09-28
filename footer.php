@@ -38,7 +38,7 @@
 						<footer>
 							<p>2018 © Tous droits réservés - ONLINEFORMAPRO</p>
 							<a href="coucou.html" target="_blank">Mentions légales</a>
-							<a href="index.html">Page d'accueil</a></section>
+							
 							
 						</footer>
 		</div>

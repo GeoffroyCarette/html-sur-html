@@ -7,7 +7,6 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: ivory;
 }
 
 .header_index_html {
@@ -41,73 +40,59 @@ body {
 /* Début flex-box enfant */
 .item_block {
 	width: 450px;
-	border-radius: 15px;
 	border: solid;
 	border-width: 10px;
-	border-color: #f6911d;
-	box-shadow: black 1px 0 10px;
+	border-color: #636e72;
 }
 
 .title_block {
 	text-align: center;
 	border: solid;
-	color: #f6911d;
+	color: #2d3436;
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: black 1px 0 10px;
-	border-radius: 15px;
 }
 
 .item_inline {
 	width: 225px;
-	border-radius: 15px;
 	border: solid;
 	border-width: 10px;
-	border-color: #f6911d;
-	box-shadow: black 1px 0 10px;
+	border-color: #636e72;
 }
 
 .title_inline {
 	text-align: center;
 	border: solid;
-	color: #f6911d;
+	color: #2d3436;
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: black 1px 0 10px;
-	border-radius: 15px;
 
 }
 
 .item_indefinite {
 	width: 225px;
-	border-radius: 15px;
 	border: solid;
 	border-width: 10px;
-	border-color: #f6911d;
-	box-shadow: black 1px 0 10px;
+	border-color: #636e72;
 }
 
 .title_indefinite {
 	text-align: center;
 	border: solid;
-	color: #f6911d;
+	color: #2d3436;
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: black 1px 0 10px;
-	border-radius: 15px;
 
 }
 /* Fin de flex-box enfant */
 footer {
-	background-color: #f6911d;
+	background-color: #636e72;
 	margin: 0;
 	margin-top: 50px;
 	padding: 25px;
-
-	border-radius: 20px;
 }
 
 .bottom_link {
@@ -121,8 +106,7 @@ footer {
 	text-align: center;
 	margin: 0px;
 	bottom: 35px;
-	background-color: orange;
-	border-radius: 10px;
+	background-color: #b2bec3;
 	font-size: 20px;
 }
 
@@ -155,10 +139,8 @@ footer {
 	margin-left: auto;
 	border: solid;
 	border-width: 10px;
-	border-color: #f6911d;
-	box-shadow: black 1px 0 10px;
+	border-color: #636e72;
 	width: 63%;
-	border-radius: 15px;
 	font-size: 20px;
 	color: black;
 }
@@ -189,38 +171,42 @@ footer {
   font-family: "Arial", sans-serif;
   font-weight: 300;
   
-  width: 220px;
   height:30px;
-  margin-top: 50%;
-  margin-bottom: 50%;
   
 
-  background: orange;
-  border: 1px solid orange;
-  border-radius: 10px;
+  background: #2d3436;
+  border: 1px solid #2d3436;
   color: #FFF;
   overflow: hidden;
   box-shadow: black 1px 0 10px;
   
   transition: all 0.5s;
+  display: block;
+  width: 200px;
+  margin: auto;
 }
 
 .button:hover, .button:active 
 {
   text-decoration: none;
-  color: #f6911d;
-  border-color: #f6911d;
+  color: #2d3436;
+  border-color: #2d3436;
   background: #FFF;
 }
 
 .button_inline {
 	text-align: center;
-	margin-top: 50%;
-	margin-bottom: 50%;
 }
 
-.button.button_margin {
-	margin-top: 50px;
+ul {
+	padding: 0;
+}
 
+li {
+	margin-top: 3%;
+}
+
+.center {
+	padding-top: 39%;
 }
 /* Fin CSS pour les boutons */

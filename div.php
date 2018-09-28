@@ -15,12 +15,8 @@
 	<header>
 		<div class="header">
 				<h1>Définitions de 12 balises HTML</h1>
-				<a href="index.html"></a>
-				<div class="background">
-				<div class="banniere">
-					<div class="text_banner"></div>
-				</div>
-				</div>	
+				<a href="index.html"><img src="media/banniere.png"></a>
+				
 		</div>
 </header>
 <?php include("menu.php"); ?>

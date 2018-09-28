@@ -13,7 +13,7 @@
 		<header>
 				<div class="header">
 						<h1>Définitions de 12 balises HTML</h1>
-						<a href="index.html"><img src="media/banniere.png"></a>
+						<a href="index.html"><img class="img_banniere" src="media/banniere.png"></a>
 				</div>
 		</header>
 		<?php include("menu.php"); ?>
